@@ -16,6 +16,7 @@ export function SignalDemoApp() {
   >
     <div style={{textAlign:'center'}}>
       <SignalPublisher signal={signal}>Send your publication message</SignalPublisher>
+      <hr/>
       <SignalSubscriber signal={signal}>Subscribed Publication messages</SignalSubscriber>
     </div>
    </div>
